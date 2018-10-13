@@ -1,0 +1,95 @@
+@media only screen and (max-width: 37.5em) {
+    .contact-form {
+        padding: 0;
+    }
+}
+
+@media only screen and (max-width: 75em) {
+    html {
+        font-size: 56.25%;
+    }
+}
+
+@media only screen and (max-width: 56.25em),
+only screen and (hover: none) {
+
+    html {
+        font-size: 50%;
+    }
+
+    .heading-primary:hover {
+        transform: none;
+        text-shadow: none;
+    }
+
+    .contact-us {
+        width: 100%;
+        margin: 0 auto;
+        background-color: rgba(255, 255, 255, 0.6);
+        font-size: 1.6rem;
+        padding: 1rem;
+        border-radius: 4px;
+        box-sizing: border-box;
+        transform: skewX(0);
+    }
+
+    
+    .contact-form {
+        width: 80%;
+        margin: 0 auto;
+        transform: skewX(0);
+    }
+
+    
+    .form {
+        transform: translate(0);
+    }   
+
+    textarea {
+        font-family: inherit;
+        width: 30vw;
+        height: 10rem;
+        padding: .7rem;
+        border-radius: 3px;
+        border: 1px solid #ccc;
+        font-size: 100%;
+        line-height: 1.15;
+        margin: 0;
+    }
+
+    textarea:focus {
+        outline: none;
+    }
+
+    input[type=submit] {
+        font-size: 1.6rem;
+        line-height: 1.15;
+        font-weight: 400;
+        color: rgba(72, 72, 139, 0.781);
+        display: inline-block;
+        padding: .6rem;
+        border: none;
+        border-bottom: 1px solid rgba(72, 72, 139, 0.781);
+        background-color: transparent;
+        cursor: pointer;
+        transition: all .2s;
+    }
+
+    input[type=submit]:hover,
+    input[type=submit]:focus {
+        border-radius: 2px;
+        background-color: rgba(72, 72, 139, 0.781);
+        color: #fff;
+        box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.15);
+        transform: translateY(-2px);
+    }
+
+
+}
+
+
+
+
+
+
+
